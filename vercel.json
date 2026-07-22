@@ -1,3 +1,9 @@
 {
-  "outputDirectory": "dist"
+  "version": 3,
+  "outputDirectory": "dist",
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
