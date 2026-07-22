@@ -52,3 +52,5 @@ npm run dev
 ## Configuração de email
 
 Copie `.env.example` para `.env` em `server/` e ajuste as variáveis SMTP.
+
+Para a versão Vercel com o backend em `api/quote.js`, copie também o `.env.example` da raiz para `.env` e configure as mesmas variáveis e o destinatário `QUOTE_RECEIVER_EMAIL=andreccnapenha@gmail.com`.

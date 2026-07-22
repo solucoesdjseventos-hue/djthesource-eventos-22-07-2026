@@ -194,7 +194,7 @@ const Quote = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="organizerEmail">Email do organizador</label>
+                  <label htmlFor="organizerEmail">Email do organizador (opcional)</label>
                   <input
                     id="organizerEmail"
                     type="email"
@@ -208,7 +208,7 @@ const Quote = () => {
               <button 
                 type="submit" 
                 className="submit-button"
-                disabled={!quote.items.length || !email || !quote.clientName || !quote.clientEmail}
+                disabled={!quote.items.length || !quote.clientName || !quote.clientEmail || !quote.eventName}
               >
                 ✓ Enviar Orçamento
               </button>
